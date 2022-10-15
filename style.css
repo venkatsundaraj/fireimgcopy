@@ -9,10 +9,7 @@ body {
   font-family: sans-serif;
   width: 100vw;
   height: 300vh;
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
+
   background-color: black;
   position: relative;
 }
@@ -22,30 +19,28 @@ html {
 }
 
 .image-container {
-  margin-top: 10vh;
-  width: 100%;
+  width: 80%;
   height: 80vh;
   background-image: url("./images/ezgif-frame-001.png");
   position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
+  top: 10rem;
+  left: 16rem;
+
+  overflow: hidden;
 }
 
-.text-container {
+p {
   width: 100%;
-  opacity: 0;
-}
-
-h1 {
-  width: 50%;
-  font-size: 4rem;
+  font-size: 4.8rem;
   font-weight: bold;
-  color: white;
+  color: rgba(255, 255, 255, 0);
+  position: absolute;
+  right: 14rem;
+  top: 4rem;
 
-  /* opacity: 40; */
-  z-index: 10;
-  text-align: center;
+  text-align: end;
+  padding: 2rem;
+  /* text-transform: uppercase; */
+  /* opacity: 10; */
+  /* text-align: center; */
 }
