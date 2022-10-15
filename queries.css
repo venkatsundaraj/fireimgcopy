@@ -1,0 +1,27 @@
+@media (max-width: 34em) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+    width: 50%;
+  }
+  .image-container {
+    width: 200vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    /* background-image: unset; */
+    overflow: unset;
+    margin-left: -40rem;
+  }
+  p {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+}
